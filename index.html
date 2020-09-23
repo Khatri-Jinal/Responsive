@@ -1,0 +1,134 @@
+<html>
+
+<head>
+	<title>Excercise1</title>
+	<style>
+		body {
+			background-color: blue;
+			color: white;
+			margin: auto;
+		}
+
+		.main {
+			width: 100%;
+		}
+
+		.first,
+		.second,
+		.third,
+		.forth {
+			width: 24.5%;
+			border: 2px solid black;
+			display: inline-block;
+			text-align: center;
+			margin-bottom: 3px;
+		}
+
+		@media screen and (max-width:1400px) {
+
+			.first,
+			.second,
+			.third,
+			.forth {
+				width: 24.3%;
+			}
+		}
+
+		@media screen and (max-width:1020px) {
+
+			.first,
+			.second,
+			.third,
+			.forth {
+				width: 24.2%;
+			}
+		}
+
+
+
+		@media screen and (max-width:900px) {
+			body {
+				background-color: pink;
+			}
+
+			.forth {
+				width: 98.7%;
+				display: block;
+
+			}
+
+			.first,
+			.second,
+			.third {
+				width: 32.3%;
+			}
+		}
+
+		@media screen and (max-width:830px) {
+			body {
+				background-color: pink;
+			}
+
+			.forth {
+				width: 98.2%;
+			}
+
+			.first,
+			.second,
+			.third {
+				width: 31.99%;
+			}
+		}
+
+		@media screen and (max-width:700px) {
+			body {
+				background-color: teal;
+			}
+
+			.first,
+			.second {
+				width: 48.5%;
+			}
+
+			.third {
+				display: block;
+				width: 98%;
+			}
+
+			.forth {
+				width: 98%;
+			}
+		}
+
+		@media screen and (max-width:518px) {
+			body {
+				background-color: pink;
+			}
+
+			.second,
+			.first {
+				display: block;
+				width: 97.5%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="main">
+		<div class="first">
+			<h1>First</h1>
+		</div>
+		<div class="second">
+			<h1>Second</h1>
+		</div>
+		<div class="third">
+			<h1>Third</h1>
+		</div>
+		<div class="forth">
+			<h1>Forth</h1>
+		</div>
+
+</body>
+
+</html>
